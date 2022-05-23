@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: calibri;
+}
+
+body{
+	font-size: 20px;
+}
+
+header{
+	height: 8vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 6%;
+
+	background-color: #fff;
+	color: #000;
+}
+
+header a{
+	padding: 6px 12px;
+	color: inherit;
+	text-decoration: none;
+	border-radius: 3px;
+}
+
+header a:hover{
+	background-color: rgba(255,255,255, 0.4);
+}
+
+
+main{
+	min-height: 80vh;
+}
+
+main > section{
+	min-height: 80vh;
+	padding: 25px 6% 0;
+}
+
+#home{
+	background-color: seagreen;
+}
+
+#perfil{
+	background-color: indianred;
+}
+
+#feed{
+	background-color: slateblue;
+}
+
+#chats{
+	background-color: darkgoldenrod;
+}
+
+footer{
+	height: 12vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background-color: #22577e;
+	color: white;
+}
