@@ -1,41 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
-	<header>
-		<div>
-			<h1><a href="templates/home.html">SPA</a></h1>
-			<p>Single Page Application</p>
-		</div>	
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cesacion tabaquica</title>
+    <link rel="stylesheet" href="./public/css/estilos.css" />
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,500;8..144,600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header >
+		<div class="header-top-bar flex">
+			<nav role="navigation">
+				<div id="menuToggle">
+				<input type="checkbox" />
+				<span></span>
+				<span></span>
+				<span></span>
+				
+				<ul id="menu">
+					<div><a href="#" id="home"><img src="./public/img/logo-maite-cabeza.jpg" width="45px" alt="" class="logo"></a></div>
+					<a href="#" id="dra-maite-cabeza">Algo Sobre Mi</a>
+					<a href="#" id="dejar-de-fumar">Dejar de Fumar</a>
+					<a href="#" id="tratamiento">Tratamiento</a>
+					<a href="#" id="contacto">Contacto</a>
+				</ul>
+				</div>
+			</nav>
+			<div class="header-logo"><a href="#" id="home"><img src="./public/img/logo-maite-cabeza.jpg" alt="" class="logo"></a></div>
+	</div>
+</div>
 
-		<nav>
-			<a href="templates/sobre-mi.html">Algo Sobre Mi</a>
-			<a href="templates/dejar-de-fumar.html">Dejar de Fumar</a>
-			<a href="templates/tratamiento.html">Tratamiento</a>
-			<a href="templates/contacto.html">Contacto</a>
-		</nav>
-	</header>
+				<!-- /burguer-->
+	
+			
+		<div class="header-top-bar-desktop animate__animated animate__fadeIn">
+			<a href="#" id="home">
+				<div class="flex">
+				  <div  ><img src="./public/img/logo-maite-cabeza.jpg" alt="" /></div>
+				  <div class="txt-logo">Dra. Maite Cabeza
+				<p class="tx-logo">Especialista en tabaquismo</p></div>
+				</div>
+			  </a>
+		
+			  <nav>
+				<a href="#" id="dra-maite-cabeza">Algo Sobre Mi</a>
+				<a href="#" id="dejar-de-fumar">Dejar de Fumar</a>
+				<a href="#" id="tratamiento">Tratamiento</a>
+				<a href="#" id="contacto">Contacto</a>
+			  </nav>
 
-	<main>
-		<section id="home">
-			<h1>HOME</h1>
-			<p>Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Libero pariatur, fuga nulla, inventore molestias nesciunt ipsa! Mollitia quis voluptatem labore.</p>
-			<p>Illo excepturi alias sint quam. Mollitia beatae numquam, esse provident libero delectus, officiis. Vero velit suscipit ut debitis commodi magni.</p>
-			<p>Porro perferendis suscipit corporis cumque ab similique quaerat ut facilis minima quidem, molestias dolore dolorem voluptatum eveniet sit accusamus earum.</p>
-			<p>Nam harum aperiam temporibus et saepe sapiente quia commodi repellendus mollitia impedit nobis velit facilis voluptatem aspernatur id ea, eligendi?</p>
-			<p>Nostrum, quia ducimus natus deleniti rem optio! Voluptas enim quas unde temporibus doloremque at molestiae quam tempore fugit sunt, molestias.</p>
-		</section>
-	</main>
+		</div>
+    </header>
 
-	<footer>
-		<p>Mi Web &copy 2022</p>
-	</footer>
+    <main></main>
 
-	<script src="js/spa.js"></script>
-</body>
+<footer>
+  <div id="div-footer">
+	<nav>
+		<a href="#" id="home">Home</a> |
+		<a href="#" id="dra-maite-cabeza">Algo Sobre Mi</a> |
+		<a href="#" id="dejar-de-fumar">Dejar de Fumar</a>  |
+		<a href="#" id="tratamiento">Tratamiento</a>  |
+		<a href="#" id="contacto">Contacto</a> 
+	  </nav>
+	<div id="menu-bottom">
+	<div>Av Cordoba 5486 CABA - 011.2563-8569 | Copyright 2022 - Todos los derechos reservados</div>
+	<div class="redes">
+		<div><a onclick=window.open(href); href="https://www.instagram.com/dramaitecabeza/"><img src="./public/img/ico-ig.png" alt=""></a></div>
+		<div><a onclick=window.open(href); href="https://www.linkedin.com/in/maite-andrea-cabeza-071bb81ab/"><img src="./public/img/ico-lk.png" alt=""></a></div>
+		<div><a onclick=window.open(href); href="https://wa.me/541123109592?text=Quisiera%20contactarme%20para%20dejar%20de%20fumar"><img src="./public/img/ico-whatsapp.png" alt=""></a></div>
+	</div>
+  </div>	
+</div>	
+</footer>
+    <script src="./js/spa.js"></script>
+  </body>
 </html>
